@@ -11,7 +11,7 @@ The dataset undergoes thorough data cleaning processes, including handling missi
 EDA is performed to gain insights into the dataset's characteristics and relationships between variables. Visualizations such as histograms, box plots, and correlation matrices are used to understand the distribution of features, identify patterns, and detect anomalies.
 
 ## Model Training
-Various machine learning models are trained on the cleaned dataset to predict credit approval. The models include logistic regression, decision trees, random forests, and gradient boosting classifiers. Performance metrics such as accuracy, precision, recall, and F1-score are used to evaluate the models.
+Various machine learning models are trained on the cleaned dataset to predict credit approval. The models include logistic regression, decision trees, random forests, and gradient boosting classifiers. Performance metrics such as accuracy, precision, recall, and F1-score are used to evaluate the models.XgBoost b performed best giving 78% accuracy
 
 ## Hyperparameter Tuning
 GridSearchCV is employed to fine-tune the hyperparameters of the selected model(s) and optimize their performance. This process involves systematically searching through a range of hyperparameter values to identify the best combination that maximizes the model's predictive accuracy.
