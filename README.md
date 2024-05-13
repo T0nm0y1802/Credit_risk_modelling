@@ -27,7 +27,7 @@ GitHub is utilized for version control, enabling collaboration, code sharing, an
 2. Clone the repository: git clone [repository-url]
 3. Navigate to the project directory: cd credit-risk-model
 4. Run the Streamlit app: streamlit run app.py
-5. Access the application in your browser at the provided URL (typically http://localhost:8501)
+5. Access the application in your browser at the provided URL (typically https://creditriskmodel.streamlit.app/)
 
 
 1. Open the deployed Streamlit application in your web browser.
