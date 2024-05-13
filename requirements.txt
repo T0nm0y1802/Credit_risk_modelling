@@ -1,0 +1,14 @@
+numpy 
+pandas 
+matplotlib
+scikit-learn
+scipy
+statsmodels
+seaborn
+openpyxl
+streamlit
+xgboost
+XlsxWriter
+flask
+gradio
+-e .

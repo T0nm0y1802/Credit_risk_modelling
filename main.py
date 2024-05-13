@@ -310,10 +310,12 @@ print("Test Accuracy:", accuracy)
 # Best Hyperparameters: {'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 200}
 
 
+
 # Based on risk appetite of the bank, you will suggest P1,P2,P3,P4 to the business end user
 
-
-
+import pickle
+with open('model.pkl','wb') as f:
+    pickle.dump(xgb_model,f)
 
 
 
